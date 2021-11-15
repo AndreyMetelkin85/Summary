@@ -1,0 +1,78 @@
+html {
+  font-family: Roboto, sans-serif;
+  --primary-color: #2f80ed;
+  --secondary-color: #333333;
+  --bg-color: #ffffff;
+}
+
+body {
+  margin: 0;
+  background: linear-gradient(50deg,
+    #9796f0, #fbc7d4);
+  }
+
+h1 {
+  color: var(--primary-color);
+  margin-bottom: 0.25em;
+  margin-top: -25%;
+}
+
+h2 {
+  color: var(--secondary-color);
+  font-size: 1em;
+  margin-top: 0;
+  margin-bottom: 1em;
+}
+
+h3 {
+  color: var(--primary-color);
+}
+
+a {
+  color: var(--primary-color);
+}
+
+section {
+  margin-bottom: 5em;
+  position: relative;
+}
+
+p {
+   margin-left: 300px;
+}
+
+.section__velue {
+  left: 350px;
+  bottom: -15px;
+}
+
+.cv {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.contacts {
+  margin-bottom: 0.45em;
+  font-weight: 450;
+}
+
+.contact {
+  display: table-footer-group;
+}
+
+.contact__type {
+font-weight: 550;
+}
+
+.experience {
+  margin-bottom: 5em;
+  
+}
+
+.experience__date {
+    margin-bottom: 0.5em;
+  }
+
+  .experience__details {
+    line-height: 1.5;
+  }
