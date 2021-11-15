@@ -37,13 +37,19 @@ section {
   position: relative;
 }
 
-p {
-   margin-left: 300px;
+.responsive {
+position: relative;
+top: 5px;
+left: 10px;
+width: 35%;
+height: all;
+
+
 }
 
 .section__velue {
   left: 350px;
-  bottom: -15px;
+  bottom: -30px;
 }
 
 .cv {
