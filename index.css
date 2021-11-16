@@ -44,12 +44,13 @@ left: 10px;
 width: 35%;
 height: all;
 
-
 }
 
 .section__velue {
-  left: 350px;
-  bottom: -30px;
+  position: relative;
+ top: 35px;
+ left: 350px;
+ height: all;
 }
 
 .cv {
@@ -82,3 +83,4 @@ font-weight: 550;
   .experience__details {
     line-height: 1.5;
   }
+
