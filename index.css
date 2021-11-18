@@ -14,7 +14,8 @@ body {
 h1 {
   color: var(--primary-color);
   margin-bottom: 0.25em;
-  margin-top: -25%;
+  top: 50%;
+  position: relative;
 }
 
 h2 {
@@ -22,10 +23,12 @@ h2 {
   font-size: 1em;
   margin-top: 0;
   margin-bottom: 1em;
+  position: relative;
 }
 
 h3 {
   color: var(--primary-color);
+  position: relative;
 }
 
 a {
@@ -51,6 +54,7 @@ height: all;
  top: 35px;
  left: 350px;
  height: all;
+
 }
 
 .cv {
