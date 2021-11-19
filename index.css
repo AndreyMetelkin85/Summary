@@ -7,9 +7,8 @@ html {
 
 body {
   margin: 0;
-  background: linear-gradient(50deg,
-    #9796f0, #fbc7d4);
-  }
+  background: linear-gradient(50deg, #9796f0, #fbc7d4);
+}
 
 h1 {
   color: var(--primary-color);
@@ -41,29 +40,34 @@ section {
 }
 
 .responsive {
-position: relative;
-top: 5px;
-left: 10px;
-width: 35%;
-height: all;
-
+  position: flex;
+  top: 5px;
+  right: 350px;
+  width: 35%;
+  height: all;
+  
+  
 }
 
 .section__velue {
-  position: relative;
- top: 35px;
- left: 350px;
- height: all;
+  display: flex;
+  left: 0px;
+}
 
+.contacts-wrapper {
+  margin-top: auto;
+  margin-right: 250px;
+  margin-left: 20px;
 }
 
 .cv {
   max-width: 900px;
   margin: 0 auto;
+  padding: 10px;
 }
 
 .contacts {
-  margin-bottom: 0.45em;
+  margin-bottom: 0em;
   font-weight: 450;
 }
 
@@ -72,19 +76,17 @@ height: all;
 }
 
 .contact__type {
-font-weight: 550;
+  font-weight: 550;
 }
 
 .experience {
   margin-bottom: 5em;
-  
 }
 
 .experience__date {
-    margin-bottom: 0.5em;
-  }
+  margin-bottom: 0.5em;
+}
 
-  .experience__details {
-    line-height: 1.5;
-  }
-
+.experience__details {
+  line-height: 1.5;
+}
